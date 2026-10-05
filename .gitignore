@@ -1,0 +1,22 @@
+# Ignorar archivos de sistema de macOS y Windows
+.DS_Store
+._*
+Thumbs.db
+
+# Ignorar videos pesados y archivos de telemetría para no subirlos por error a GitHub
+*.360
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.gpx
+*.GPX
+*.LRV
+*.THM
+*.fmt
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
